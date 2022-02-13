@@ -1,0 +1,47 @@
+[ {
+  "key" : 0,
+  "active" : true,
+  "amount" : 0,
+  "time" : "21:00"
+}, {
+
+  "key" : 1,
+  "active" : true,
+  "amount" : 0,
+  "time" : "21:30"
+}, {
+  "active" : true,
+  "key" : 2,
+  "amount" : 0,
+  "time" : "22:00"
+}, {
+  "active" : true,
+  "key" : 3,
+  "amount" : 0,
+  "time" : "22:30"
+}, {
+  "active" : true,
+  "amount" : 0,
+  "key" : 4,
+  "time" : "23:00"
+}, {
+  "active" : true,
+  "key" : 5,
+  "amount" : 0,
+  "time" : "23:30"
+}, {
+  "active" : true,
+  "key" : 6,
+  "amount" : 0,
+  "time" : "00:00"
+}, {
+  "active" : true,
+  "amount" : 0,
+  "key" : 7,
+  "time" : "00:30"
+}, {
+  "active" : true,
+  "amount" : 0,
+  "key" : 8,
+  "time" : "01:00"
+} ]

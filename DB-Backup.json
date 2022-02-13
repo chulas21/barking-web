@@ -1,0 +1,77 @@
+{
+  "Clients" : {
+    "2644431575" : {
+      "name" : "Francisco Prato",
+      "phone" : 2644431575
+    },
+    "2645069899" : {
+      "name" : "Ana Laura Belelli",
+      "phone" : "2645069899"
+    }
+  },
+  "Products" : {
+    "U2FsdGVkX1+73pfWblRz7hA7xvOr-X8ZjYGA-+ZRAmU=" : {
+      "description" : "Mayonesa, tomate, jamon, doble muzzarella, medallón de carne",
+      "doublePrice" : 460,
+      "key" : "U2FsdGVkX1+73pfWblRz7hA7xvOr-X8ZjYGA-+ZRAmU=",
+      "name" : "Napolitana",
+      "simplePrice" : 380
+    },
+    "U2FsdGVkX1+ZgOhi99Zhwu+W6W4DxUN-cuLCNJkBsjY=" : {
+      "description" : "Ketchup, mayonesa, cebolla, lechuga, tomate, chedddar, medallón de carne",
+      "doublePrice" : 440,
+      "key" : "U2FsdGVkX1+ZgOhi99Zhwu+W6W4DxUN-cuLCNJkBsjY=",
+      "name" : "Barking",
+      "simplePrice" : 380
+    },
+    "U2FsdGVkX1+qKOJmZxGieXxHyQPczDeY0GxLZy1xIEM=" : {
+      "description" : "Barbacoa, aros de cebolla, doble cheddar, medallón de carne",
+      "doublePrice" : 460,
+      "key" : "U2FsdGVkX1+qKOJmZxGieXxHyQPczDeY0GxLZy1xIEM=",
+      "name" : "Cros",
+      "simplePrice" : 380
+    },
+    "U2FsdGVkX1-dv4oBYaRMt6wf9anAdNf7fy+wpzsD2ec=" : {
+      "description" : "Ketchup, cebolla, doble chedddar, medallón de carne",
+      "doublePrice" : 440,
+      "key" : "U2FsdGVkX1-dv4oBYaRMt6wf9anAdNf7fy+wpzsD2ec=",
+      "name" : "Clasica",
+      "simplePrice" : 350
+    },
+    "U2FsdGVkX1-taRjJ8BIeH-CybAiGDNTq0mkbYgaChs0=" : {
+      "description" : "Ketchup, mix de pimientos asados, guacamole, medallón de carne",
+      "doublePrice" : 460,
+      "key" : "U2FsdGVkX1-taRjJ8BIeH-CybAiGDNTq0mkbYgaChs0=",
+      "name" : "Tex Burger",
+      "simplePrice" : 380
+    },
+    "U2FsdGVkX18hp3QkaPyMYWon14Fu7ivOmk8hL+YstQ8=" : {
+      "description" : "Salsa de la casa, queso azul, salamin, medallón de carne",
+      "doublePrice" : 460,
+      "key" : "U2FsdGVkX18hp3QkaPyMYWon14Fu7ivOmk8hL+YstQ8=",
+      "name" : "Pepperoni",
+      "simplePrice" : 380
+    },
+    "U2FsdGVkX19JvzroUUNQ-nKfyA2LJAOVkn6qJIKq5Jg=" : {
+      "description" : "Barbacoa, cebolla morada, doble cheddar, medallón de carne",
+      "doublePrice" : 460,
+      "key" : "U2FsdGVkX19JvzroUUNQ-nKfyA2LJAOVkn6qJIKq5Jg=",
+      "name" : "Kid",
+      "simplePrice" : 380
+    },
+    "U2FsdGVkX19ndf9m8W2h9MWIeWArtKh3r9xFylkzB64=" : {
+      "description" : "Barbacoa, cebolla caramelizada, doble chedddar, medallón de carne",
+      "doublePrice" : 460,
+      "key" : "U2FsdGVkX19ndf9m8W2h9MWIeWArtKh3r9xFylkzB64=",
+      "name" : "Peni",
+      "simplePrice" : 380
+    },
+    "U2FsdGVkX19oICVCre+T9tu4FavicDvyjhk5n1GJkeg=" : {
+      "description" : "Todas las variedades",
+      "doublePrice" : 0,
+      "key" : "U2FsdGVkX19oICVCre+T9tu4FavicDvyjhk5n1GJkeg=",
+      "name" : "Triple",
+      "simplePrice" : 570
+    }
+  }
+}
