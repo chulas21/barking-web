@@ -15,9 +15,22 @@ function StaffOrderPage() {
   const classes = useStyles();
   const navigate = useNavigate();
   const [orders, setOrders] = useState([])
-    
+   
+  const compare = (a,b) => {
+    if(a.time.key < b.time.key) {
+      return -1
+    }
+    if(a.time.key > b.time.key) {
+      return 1
+    }
+    return 0
+  }
+
   useEffect(() => {
-    getOrders((data)=>{setOrders(data)})
+    getOrders((data) => {
+      setOrders(data.sort(compare));
+      console.log(data);
+    });
 
     let status = getAuthStatus();
     if (!status) {
@@ -64,6 +77,7 @@ const useStyles = makeStyles((theme) => ({
   },
   ordersContainer: {
     display: "flex",
+    height:'80%',
     flexWrap: "wrap",
     alignItems: "center",
     justifyContent: "center",

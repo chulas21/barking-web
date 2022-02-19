@@ -22,6 +22,7 @@ export const sendOrder = (order,time,navCB) => {
   let timesRef = ref(db, `Time/${time.key}`);
 
   get(timesRef).then((snapshot) => {
+    console.log(snapshot.val())
     let newValue = parseInt(snapshot.val()['amount']) + order.products.length;
     let newTime = time
     newTime.amount = newValue
@@ -114,4 +115,25 @@ export const checkTime = (time) => {
   if (currentTime >= givenTime) { status = false }
 
   return status
+};
+//==================== UPDATE TIME STATUS ====================//
+export const updateTimeStatus = (t) => {
+  console.log(t)
+  let time = ref(db,`Time/${t.key}`);
+  let newTime = t;
+  newTime.active = !t.active
+  set(time,newTime)
+};
+//==================== RESET TIMES COUNT ====================//
+export const resetCount = () => {
+let times = ref(db,'Time/')
+  get(times).then((snapshot) => {
+    let timesArr = snapshot.val();
+
+    let newTimesArr = timesArr.map((t) => {
+      t.amount = 0;
+      return t;
+    });
+    set(times,newTimesArr);
+  });
 };
